@@ -23,7 +23,7 @@ const ToDoForm = ({addToDo , setState , state}:Props) => {
           type="text"
           className="todo-input"
           value={state?.duration}
-          placeholder="زمان لازم برحسب ساعت"
+          placeholder="زمان لازم برحسب دقیقه"
           onChange={(event) => setState({...state ,duration:event.target.value})}
           required={true}
         />
